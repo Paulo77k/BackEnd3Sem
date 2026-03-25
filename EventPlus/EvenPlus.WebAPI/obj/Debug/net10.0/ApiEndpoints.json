@@ -1,0 +1,456 @@
+[
+  {
+    "ContainingType": "EvenPlus.WebAPI.Controllers.ComentarioEventoControllerr",
+    "Method": "Post",
+    "RelativePath": "api/ComentarioEventoControllerr",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comentarioEvento",
+        "Type": "EvenPlus.WebAPI.DTO.ComentarioEventoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.EventoController",
+    "Method": "Listar",
+    "RelativePath": "api/Evento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.EventoController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Evento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventoDTO",
+        "Type": "EvenPlus.WebAPI.DTO.EventoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.EventoController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/Evento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.EventoController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Evento/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "evento",
+        "Type": "EvenPlus.WebAPI.DTO.EventoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.EventoController",
+    "Method": "Deletar",
+    "RelativePath": "api/Evento/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.EventoController",
+    "Method": "BuscarProximos",
+    "RelativePath": "api/Evento/ListarProximos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.EventoController",
+    "Method": "ListarPorId",
+    "RelativePath": "api/Evento/Usuario/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.InstituicaoController",
+    "Method": "Get",
+    "RelativePath": "api/Instituicao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.InstituicaoController",
+    "Method": "Post",
+    "RelativePath": "api/Instituicao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "instituicaoDto",
+        "Type": "EvenPlus.WebAPI.DTO.DTOInstituicao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.InstituicaoController",
+    "Method": "GetById",
+    "RelativePath": "api/Instituicao/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.InstituicaoController",
+    "Method": "Put",
+    "RelativePath": "api/Instituicao/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "instituicaoDto",
+        "Type": "EvenPlus.WebAPI.DTO.DTOInstituicao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.InstituicaoController",
+    "Method": "Delete",
+    "RelativePath": "api/Instituicao/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvenPlus.WebAPI.Controllers.PresencaController",
+    "Method": "Inscrever",
+    "RelativePath": "api/Presenca",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "presenca",
+        "Type": "EvenPlus.WebAPI.DTO.PresencaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvenPlus.WebAPI.Controllers.PresencaController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Presenca/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "presenca",
+        "Type": "EvenPlus.WebAPI.DTO.PresencaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvenPlus.WebAPI.Controllers.PresencaController",
+    "Method": "Deletar",
+    "RelativePath": "api/Presenca/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvenPlus.WebAPI.Controllers.PresencaController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/Presenca/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvenPlus.WebAPI.Controllers.PresencaController",
+    "Method": "ListarMinhas",
+    "RelativePath": "api/Presenca/ListarMinhas/{idEvento}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEvento",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvenPlus.WebAPI.Controllers.PresencaController",
+    "Method": "Buscarminhas",
+    "RelativePath": "api/Presenca/ListarMinhas/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.TipoEventoController",
+    "Method": "Listar",
+    "RelativePath": "api/TipoEvento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.TipoEventoController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/TipoEvento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoEvento",
+        "Type": "EvenPlus.WebAPI.Models.TipoEvento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.TipoEventoController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/TipoEvento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.TipoUsuarioController",
+    "Method": "Get",
+    "RelativePath": "api/TipoUsuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.TipoUsuarioController",
+    "Method": "Post",
+    "RelativePath": "api/TipoUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoUsuarioDto",
+        "Type": "EvenPlus.WebAPI.DTO.TipoUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.TipoUsuarioController",
+    "Method": "GetById",
+    "RelativePath": "api/TipoUsuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.TipoUsuarioController",
+    "Method": "Put",
+    "RelativePath": "api/TipoUsuario/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipoUsuarioDto",
+        "Type": "EvenPlus.WebAPI.DTO.TipoUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.TipoUsuarioController",
+    "Method": "Delete",
+    "RelativePath": "api/TipoUsuario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.UsuarioController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "EvenPlus.WebAPI.DTO.UsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.UsuarioController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
